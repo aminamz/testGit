@@ -18,14 +18,18 @@
 
 const axios = require("https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js");
 
-const fetch = async () => {
-  try {
-    const req = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
-    const data = request;
-    console.log(data);
-  } catch (error) {
-    console.log(error.message);
-  }
+// const fetch = async () => {
+//   try {
+//     const req = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
+//     const data = request;
+//     console.log(data);
+//   } catch (error) {
+//     console.log(error.message);
+//   }
+// };
+
+const testGit = () => {
+  console.log("this is Git");
 };
 
 fetch();
